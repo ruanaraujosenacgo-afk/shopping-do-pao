@@ -71,7 +71,7 @@ function createProductCard(product, section) {
     // Agora o produto.image já contém o link completo da imagem
     return `
         <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col sm:flex-row md:flex-col">
-            <img src="${product.image}" alt="${product.name}" class="w-full h-32 sm:h-24 md:h-56 object-cover">
+            <img src="${product.image}" alt="${product.name}" class="w-full h-55 sm:h-24 md:h-56 object-cover">
             <div class="p-4 flex flex-col flex-grow">
             <h3 class="text-sm sm:text-lg font-semibold mb-1 sm:mb-2">${product.name}</h3>
             <p class="text-lg sm:text-2xl font-bold text-orange-600 mb-2 sm:mb-4 mt-auto">R$ ${parseFloat(product.price).toFixed(2).replace('.', ',')}</p>
@@ -239,4 +239,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     await fetchProductsFromSheet();
     renderProducts();
     updateCart();
+
 });
