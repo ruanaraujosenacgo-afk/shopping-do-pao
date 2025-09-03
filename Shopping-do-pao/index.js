@@ -1,4 +1,3 @@
-// ATENÇÃO: SUBSTITUA 'SUA_URL_DO_WEB_APP' pela URL que você copiou no Passo 2.
 const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzNOtkNO0p7CEsZYnglWvRt-P-Fxgxe1kxnQ8kEoDGeIzFyTaUj8tX_O1p5QKWvDWTk6w/exec';
 
 // Onde os dados da planilha serão armazenados
